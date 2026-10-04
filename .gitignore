@@ -1,0 +1,23 @@
+# Compiled Java class files
+bin/
+*.class
+
+# Eclipse Core / Workspace metadata
+.metadata/
+.recommenders/
+*.tmp
+*.bak
+*~
+
+# Log files
+*.log
+
+# Package Files (Binaries)
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# Virtual machine crash logs
+hs_err_pid*
