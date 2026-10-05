@@ -119,12 +119,12 @@ public class Student {
 			
 			if (st.isEmpty()) st.push(c);
 			else {
-				if (c == 'a' && (char) st.top() == 'b') st.pop();
+				if (c == 'a' && (char) st.top() == 'b') st.pop(); // a [] 
 				else if (c == 'b' && (char) st.top() == 'a') st.pop();
 				else if (c == 'a' && (char) st.top() == 'a') st.push(c);
 				else if (c == 'b' && (char) st.top() == 'b') st.push(c);
 			}	
-		}		
+		}
 		return st.isEmpty() ; 
 	}
 
