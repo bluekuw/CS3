@@ -182,20 +182,20 @@ class DoublyLinkedList {
 		curr.next = newLink ; 
 	}
 	
-	public Link reverseK(Link head, int k){ 
-		// 2 -> 1  -> 3 -> 4 -> null 
-		if (head == null){
-			return null ; 
-		}
-		Link nextGroupStart = head ; 
-		int count = 0 ; 
-		while (nextGroupStart != null && count < k){
-			nextGroupStart = nextGroupStart.next ; 
-			count++ ; 
-		}
-		Link newHead = reverseGroup(head, k);
-		head.next = reverseK(nextGroupStart, k);
-		return newHead ; 
-	}
+//	public Link reverseK(Link head, int k){ 
+//		// 2 -> 1  -> 3 -> 4 -> null 
+//		if (head == null){
+//			return null ; 
+//		}
+//		Link nextGroupStart = head ; 
+//		int count = 0 ; 
+//		while (nextGroupStart != null && count < k){
+//			nextGroupStart = nextGroupStart.next ; 
+//			count++ ; 
+//		}
+//		Link newHead = reverseGroup(head, k);
+//		head.next = reverseK(nextGroupStart, k);
+//		return newHead ; 
+//	}
 
 } 
